@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #222222;
+}
+.menu{
+    background-color: #222222;
+    color: white;
+    height: 8vh;
+    line-height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+.contener{
+    max-width: 1000px;
+    margin: auto;
+}
+.menu-links{
+    float: right;
+}
+.menu-links a{
+    color: #fdfdfd;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.menu-links a:hover{
+    display: inline-block;
+    transform: scale(1.1);
+    color: aqua;
+}
+.header{
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.header-contener{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+.header-contener h1{
+    font-size: 90px;
+    color: #222222;
+    font-weight: bold;
+}
+.header-contener p{
+    color: #222222;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header-contener a{
+
+    background: linear-gradient(45deg, #65DAFF, #70FFCB);
+    padding: 30px 50px;
+    margin-top:30px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(117, 156, 189);
+}
+.describ{
+    height: 40vh;
+    padding-top: 60px;
+
+}
+.describ-card{
+    color:#65DAFF;
+    width: 24%;
+    font-size: 25px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+.describ-card img{
+    width: 55%;
+}
+.games-card-img img{
+    width: 100%;
+    height: 100%;
+}
+.games-contener{
+    box-shadow:0px 0px 20px #000000;
+    padding: 2%;
+}
+.section-title{
+    color:#65DAFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.games-card-info{
+    height: 280px;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    color: #d4d6d6;
+    line-height: 24px;
+    padding: 20px;
+}
+.games-card-img{
+    width: 49%;
+    display: inline-block;
+    height: 275px;
+    vertical-align: top;
+}
+.games-card-info h3{
+    color:#70FFCB;
+    margin-bottom: 20px;
+}
+.games-card-info p{
+    margin-top: 20px;
+}
+
+.games-card-info hr{
+    width: 150px;
+    height: 5px;
+    background-color:#70FFCB;
+}
+
+.turniers p{
+    color: #d4d6d6;
+    margin-top: 40px;
+}
+.turniers{
+    padding: 100px 0;
+}
+.discord-contener{
+    box-shadow:0px 0px 20px #000000;
+    padding: 2%;
+}
+.discord{
+    margin-bottom: 30px;
+}
+.discord-contener hr{
+    height: 5px;
+    width: 33%;
+    background: white;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.discord-box{
+    background: linear-gradient(45deg, #65DAFF, #70FFCB);
+    height: 100px;
+    padding: 30px 90px;
+}
+.discord-box p{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    width: 80%;
+}
+.discord-box a{
+    background-color: #222222;
+    color: #d4d6d6;
+    text-decoration: none;
+    padding: 10px 20px;
+}
